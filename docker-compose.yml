@@ -1,12 +1,8 @@
-version: "3.8"
-
 services:
-  mlops-api:
-    build: .
-    container_name: mlops-fastapi
+  ai-model-api:
+    image: bliss009/bliss_docker:latest
+    container_name: ai-model-api
     ports:
-      - "8000:8000"     # FastAPI 포트
-    volumes:
-      - .:/app          # model.pkl 변경 시 즉시 반영
+      - "8000:8000"
     restart: always
 
