@@ -1,4 +1,1 @@
-# ai model cicd
-
-fff
-
+# AI Model CI/CD Practice
