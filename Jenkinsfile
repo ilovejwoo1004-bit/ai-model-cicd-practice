@@ -67,7 +67,7 @@ pipeline {
 
 
 
-# Jenkins Job 생성
+
 Dashboard
 → New Item
 → ai-model-cicd 입력
@@ -75,7 +75,7 @@ Dashboard
 → OK
 
 
-설정
+
 Pipeline
 → Definition: Pipeline script from SCM
 → SCM: Git
