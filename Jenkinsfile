@@ -68,23 +68,6 @@ pipeline {
 
 
 
-Dashboard
-→ New Item
-→ ai-model-cicd 입력
-→ Pipeline 선택
-→ OK
-
-
-
-Pipeline
-→ Definition: Pipeline script from SCM
-→ SCM: Git
-→ Repository URL: https://github.com/bliss009/ai-model-cicd-practice.git
-→ Credentials: github-token
-→ Branch Specifier: */main
-→ Script Path: Jenkinsfile
-→ Save
-
 
 
 
