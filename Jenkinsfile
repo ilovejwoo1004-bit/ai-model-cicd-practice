@@ -1,4 +1,4 @@
-papeline {
+pipeline {
     agent any
 
     environment {
@@ -64,3 +64,29 @@ papeline {
         }
     }
 }
+
+
+
+# Jenkins Job 생성
+Dashboard
+→ New Item
+→ ai-model-cicd 입력
+→ Pipeline 선택
+→ OK
+
+
+설정
+Pipeline
+→ Definition: Pipeline script from SCM
+→ SCM: Git
+→ Repository URL: https://github.com/bliss009/ai-model-cicd-practice.git
+→ Credentials: github-token
+→ Branch Specifier: */main
+→ Script Path: Jenkinsfile
+→ Save
+
+
+
+
+
+
