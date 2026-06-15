@@ -1,0 +1,8 @@
+services:
+  ai-model-api:
+    image: bliss009/bliss_docker:latest
+    container_name: ai-model-api
+    ports:
+      - "8000:8000"
+    restart: always
+
