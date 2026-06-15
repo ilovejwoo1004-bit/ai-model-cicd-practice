@@ -11,7 +11,7 @@ papeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: 'https://github.com/bliss009/ai-model-cicd-practice.git'
+                    url: 'https://github.com/ilovejwoo1004-bit/ai-model-cicd-practice.git'
             }
         }
 
